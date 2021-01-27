@@ -1,4 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM Content Loaded callback!');
+
     const menu = document.querySelector('.menu'),
     menuItem = document.querySelectorAll('.menu_item'),
     hamburger = document.querySelector('.hamburger');
